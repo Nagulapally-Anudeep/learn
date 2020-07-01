@@ -1,0 +1,444 @@
+body{
+    background-color: rgba(26, 13, 13, 0.89);
+    /* background-color: rgba(60, 101, 124, 0.76); */
+}
+div.bar{
+  width: 1600px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: linear-gradient(to right,rgb(138, 239, 248),rgb(70, 224, 160) );  */
+
+}
+div.bar:hover{
+      background: rgba(26, 13, 13, 0.5);
+    /* background: linear-gradient(to right,rgba(5, 5, 5, 0.4),rgba(78, 87, 83, 0.582) );  */
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    position: absolute;
+    top: 9px;
+     margin-left: 60px;
+    width: 81px;
+    height: 80px;
+    opacity: 1.5;
+}
+
+a.home{
+    position: absolute;
+    right: 870px;
+    top: 32px;
+    color: rgb(250, 226, 8);
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+a.councils{
+    position: absolute;
+    color: rgb(250, 226, 8);
+    right: 740px;
+    top: 32px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+a.fests{
+    position: absolute;
+    color: rgb(250, 226, 8);
+    right: 645px;
+    top: 32px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+a.meets{
+    position: absolute;
+    right: 545px;
+    color: rgb(250, 226, 8);
+    top: 32px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+a.gallery{
+    position: absolute;
+    right: 430px;
+    color: rgb(250, 226, 8);
+    top: 32px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+a.office{
+    position: absolute;
+    color: rgb(250, 226, 8);
+    right: 330px;
+    top: 32px;
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+a.contact{
+    position: absolute;
+   right: 200px;
+    top: 32px;
+    color: rgb(250, 226, 8);
+    font-family: fantasy ;
+    font-size: 1.45em;
+    padding: 5px;
+}
+.home:hover{
+    color: springgreen;
+}
+.councils:hover{
+    color: springgreen;
+}
+.fests:hover{
+    color: springgreen;
+}
+.meets:hover{
+    color: springgreen;
+}
+.gallery:hover{
+    color: springgreen;
+}
+.office:hover{
+    color: springgreen;
+}
+.contact:hover{
+    color: springgreen;
+}
+
+img.arrow{
+    position: absolute;
+    top: 300px;
+    right: 0;
+    cursor: pointer;
+}
+img.opparrow{
+    position: absolute;
+    top:295px;
+    left: -70px;
+    cursor: pointer;
+}
+.slide{
+    position: absolute;
+    top: 0px;
+    left: -60px;
+    width: 1600px;
+    height: 750px;
+    opacity: 0.485;
+}
+
+p{
+    position: absolute;
+    top: 3000px;
+}
+
+h1.heading{
+    position: absolute;
+    top: 290px;
+    left: 380px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+
+}
+p.details{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 400px;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', serif;
+    text-align: center;
+    left: 190px;
+    right: 190px;
+}
+a.wiss{
+     text-decoration-style: none;
+    color: thistle;
+    font-family: cursive;
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 580px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+  min-width: 145px;
+}
+li.drop{
+    display: inline-block;
+}
+.dropdown a{
+    color: rgb(20, 13, 13);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.drop:hover  .dropdown{
+    display: block;
+}
+.dropdown a:hover{
+    background-color: rgba(78, 73, 69, 0.39);
+}
+.dropdown1{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 670px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+  min-width: 145px;
+}
+.dropdown1 a{
+    color: rgb(20, 13, 13);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.drop1:hover .dropdown1 {
+    display: block;
+}
+.dropdown1 a:hover{
+    background-color: rgba(78, 73, 69, 0.39);
+}
+.dropdown2{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 460px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+  min-width: 145px;
+}
+.dropdown2 a{
+    color: rgb(20, 13, 13);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.drop2:hover .dropdown2 {
+    display: block;
+}
+.dropdown2 a:hover{
+    background-color: rgba(78, 73, 69, 0.39);
+}
+
+div.about{
+    background-color: #b3f0ff;
+    position: absolute;
+    top: 1000px;
+}
+p.heading2{
+    position: absolute;
+    top: 1000px;
+    color: cornsilk;
+    text-align: center;
+}
+div#info{
+    background-image: linear-gradient(to right, 	rgb(51, 204, 204),rgb(0, 255, 153));
+    height: 1200px;
+    width: 1600px;
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    right: 0;
+    opacity: 0.75;
+}
+#info .about{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-size: 2em;
+    font-family: 'Titillium Web', serif;
+    font-weight: 600;
+}
+#info .matter{
+    height: 900px;
+    background-color: 	white;
+    width: 1000px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    opacity: 0.9999999;
+    border-radius: 60px;
+    box-shadow:  5px 8px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+}
+
+.matter p{
+    position: absolute;
+    top: 0px;
+    font-size: 1.5em;
+    padding: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+
+}
+div#pword{
+    height: 1400px;
+    width: 1600px;
+    position: absolute;
+    top: 1950.5px;
+    left: 0;
+    background-image: linear-gradient(to right,rgb(255, 77, 148),rgb(255, 26, 26));
+    opacity: 0.75;
+}
+#pword .psword{
+    position: absolute;
+    top: 90px;
+    font-size: 2em;
+    font-family: 'Titillium Web', serif;
+    font-weight: 600;
+    left: 650px;
+}
+img#photo {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 25px;
+    top: 270px;
+    left: 20px;
+    box-shadow:  5px 8px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+}
+#pword #pmatter{
+    height: 930px;
+    width: 900px;
+    position: absolute;
+    top: 220px;
+    background: white;
+    right: 200px;
+    border-radius: 60px;
+    box-shadow:  5px 8px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+}
+#pmatter p{
+    position: absolute;
+    top: 0;
+    padding: 40px;
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+#pmatter h2{
+    position: absolute;
+    top: 750px;
+    left: 20px;
+    font-size: 2em;
+    font-family: cursive;
+}
+#pmatter h4{
+    position: absolute;
+    top: 800px;
+    left: 20px;
+    font-size: 1.4em;
+    font-family: cursive;
+}
+div#credits{
+    position: absolute;
+    top: 3350px;
+    height: 250px;
+    width: 1550px;
+}
+#credits p{
+    position: absolute;
+    top: 10px;
+    left: 385px;
+    color: azure;
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+}
+#credits p + p{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    font-size: 1.8em;
+}
+#credits a#fb img{
+    position: absolute;
+    top: 158px;
+    height: 3.15em;
+    width: 4em;
+    left: 650px;
+    cursor: pointer;
+}
+
+
+#credits a#insta img{
+    position: absolute;
+    top: 160px;
+    left: 722px;
+    border-radius: 15px;
+    width: 3.4em;
+    height: 3em;
+    cursor: pointer;
+}
+@media screen and (max-width:1450px){
+    div#intro h1{
+        top: 250px;
+        left: 200px;
+    }
+    ul {
+       position: absolute;
+        left: 1200px;
+        top: -20px;
+    }
+    .dropdown1{
+        left: -850px;
+    }
+    .dropdown2{
+        left: -600px;
+    }
+    .slide{
+        width: 1600px
+    }
+    #info .about{
+        left: -200px;
+    }
+    #info .matter{
+        left: 100px;
+    }
+    #pword .psword{
+        left: 460px
+    }
+    img#photo{
+        left: 410px;
+        top: 220px;
+    }
+    #pword #pmatter{
+        top: 600px;
+        left: 170px;
+    }
+    div#pword{
+        height: 1600px;
+    }
+    div#credits{
+        height: 400px;
+    }
+    #credits p{
+        top: 200px;
+        left: 200px;
+    }
+    #credits p + p{
+        top: 260px;
+        left: 500px;
+    }
+    #credits a#fb img{
+        top: 330px;
+        left: 450px;
+    }
+    #credits a#insta img{
+        top: 332px;
+        left: 530px;
+    }
+}
